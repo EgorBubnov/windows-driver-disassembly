@@ -1,0 +1,16 @@
+# IDA database files
+*.idb
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+
+# IDA temporary files
+*.dmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

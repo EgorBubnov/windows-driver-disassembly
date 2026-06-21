@@ -1,0 +1,61 @@
+MAF-Soft filtered Mouse Device
+------------------------------
+
+*Inverts mouse y-axis* (and other options)
+
+TRIAL VERSION - DEACTIVATES AFTER SOME TIME
+
+System Requirements:
+- Windows 2000, Windows XP, Windows Server 2003, Windows Vista
+- A generic Microsoft Mouse Driver for your PS2, USB or Serial Mouse (could also work with other drivers and mice).
+
+
+To install this filter, follow these steps (there are other ways of installing drivers which don't work with this one):
+
+1. Open the Device Manager.
+2. Open the Properties of the mouse you want to install the driver for.
+3. Click the Driver tab, and then click Update Driver (from here, it can also be rolled back later).
+4. Follow the wizard's prompts, and when prompted, select the "Display a list of known drivers" option. Then click Next.
+5. Click Have Disk and then point to the location of the .inf files.
+6. Proceed through the rest of the install. You will need to reboot the machine if you are filtering a PS/2 device.
+
+After installation, you should see a "MAF-Soft filtered Mouse Device" instead of your previous driver. But that doesn't mean it replaced your driver - it just sits on top of it and hides it. So, if you have problems getting it to work, it makes a great difference which driver was installed before. Sometimes original manufacturers drivers don't work, while the default Microsoft ones do.
+
+Please keep in mind that this software is still in development and provided as-is; you are the only one responsible for *any* problems. You may not give the software to someone else and you may not use it after a trial period without paying for it. This trial version automatically deactivates after a random amount of time after each machine restart.
+
+For payment, please let me know why you need this driver and how you will use it. Private use is quite inexpensive (as of now EUR 12), persons with disabilities might get it for free, and commercial/other use has to be talked about. If you need a special version with other features this is possible as well. An x64 version is in development.
+
+
+USAGE
+-----
+
+(by default, all features are disabled and your mouse should work like normal)
+
+1. press and hold the middle mouse button (or mousewheel)
+2. press and hold the right mouse button
+3. release the middle mouse button
+4. release the right mouse button
+
+Alternatively (for example if you don't have a middle mouse button - this is not included in the registered version to prevent accidental activation, please request it, if you need it):
+
+1. press and hold the right mouse button
+2. press and hold the left mouse button
+3. release the right mouse button
+4. release the left mouse button
+
+Y-axis should be inverted now. If it doesn't work, make sure that you don't move the mouse while doing this sequence (hint: try to lift it).
+
+By repeating the 4 steps, you can cycle through some other more or less useful settings like inversion only while a button is down, inverted x-axis, both axes, rotations, locked axes, and more...
+
+You can always get back to normal by doing the first 3 steps and then moving the mouse before you release the last button.
+
+You can also install 2 mice on your computer and have only one inverted. That could make it easier if you have to switch often. I can also make an always-on version or change the required key sequence (for example if it interferes with your normal use).
+
+A control panel to change settings and configure the activation sequence more conveniently is in development...
+
+
+-- 
+Moritz Franckenstein
+mailto:mafmouse@maf-soft.de
+http://www.maf-soft.de/mafmouse/
+y!: maf_soft  icq: 22030984
